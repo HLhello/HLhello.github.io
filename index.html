@@ -1,4 +1,195 @@
-Hello World\n
-this is my blog\n
-I do not konw how to use html for my pages\n
-xxxx
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>MyBlog</title>
+		<script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <style>
+        	.side-bar .list-group-item {
+    			border: 0;
+    			margin-bottom: 5px;
+    			border-radius: 5px;
+			}
+
+			.side-bar .list-group-item .active {
+    			background-color: #337ab7;
+			}
+
+        </style>
+        
+	</head>
+	<body style="background-color:#F5F5F5" >
+		<!--导航栏响应式导航栏-->
+	  <nav class="navbar navbar-default"  style="background-color:gainsboro">
+	  	
+	  	<div class="container">
+	  		<!--LOGO和缩小页面后的展开按钮-->
+	  		<div class="navbar-header">
+			  	<button type="button" class="navbar-toggle collapsed" 
+			  		data-toggle="collapse" data-target="#aaaa" aria-expanded="false">
+		        <span style="color:hotpink"><b>Open</b></span>
+		        
+		      	</button>
+	  			<img src="img/LOGO.png" style="width:50px;height:50px;"/>
+	  		</div>
+	  		<!--导航首页，论坛等各个按钮-->
+	  		<div class="collapse navbar-collapse"  id="aaaa">
+	  		<ul class="nav  navbar-nav">
+	  	 	<li class="active"><a href="#">index</a></li>
+	  	 	<li><a href="#">myBlog</a></li>
+	  	 	
+	  	 	<li><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+	  	 		aria-expanded="false">All<span class="caret"></span></a>
+	  	 		<ul class="dropdown-menu">
+      				<li><a href="http://www.baidu.com" target="_blank">life</a></li>
+      				<li><a href="http://www.baidu.com" target="_blank">study</a></li>
+      				
+    			</ul>
+	  	 	</li>
+	  	 	</ul>
+	  	 	<!--导航页面的搜索框-->
+	  	 	<div class="navbar-form navbar-left visible-lg-block">
+	  	 		<div class="input-group">
+			  		<input type="text" class="form-control" placeholder="Please input keyword">
+			  	 	<span class="input-group-btn"  >
+			  	 		<button class="btn btn-success">Search</button>
+			  	 	</span>
+				</div>
+	  	 	</div>
+	  	 	<!--导航栏中的用户注册和登陆链接-->
+	  	 	<div class="navbar-right navbar-text">
+	  	 		<a href="#" class="navbar-link">Login</a> |
+	  	 		<a href="#" class="navbar-link">Register</a>
+	  	 	</div>	
+	  	 	
+	  		</div>
+	  	</div>
+	  </nav>
+		
+		<!--用户输入界面及登录按钮-->
+		<div class="container"  >
+			 <hr class="hr_1">My Amazing Adventure<hr class="hr_2">
+        <div class="row">
+            
+            <div class="col-xs-9">
+                <div class="list-group div_article">
+                    
+                    <a href="#" class="list-group-item active item_article_first" style="background-color:pink;border:0;">
+                        <h4 class="list-group-item-heading">
+                            My Life, Like Adventure!
+                        </h4>
+                    </a>
+                    
+                    <div class="list-group-item item_article" style="padding:10px 30px;">
+                        <div class="row">
+                            <div class="div_center ">
+                                <div class="list-group-item-heading div_article_title">
+                                    <strong>
+                                        Adventure Experience 1
+                                    </strong>
+                                </div>
+                                <p class="list-group-item-text div_article_content">
+                                    The biggest adventure you can take is to live the life of your dreams.
+                                </p>
+                            </div>
+                            
+                           
+                        </div>
+                    </div>
+                    <div class="list-group-item item_article" style="padding:10px 30px;">
+                        <div class="row">
+                            <div class="div_center ">
+                                <div class="list-group-item-heading div_article_title">
+                                    <strong>
+                                        Adventure Experience 2
+                                    </strong>
+                                </div>
+                                <p class="list-group-item-text div_article_content">
+                                   The biggest adventure you can take is to live the life of your dreams.
+                                   The biggest adventure you can take is to live the life of your dreams.
+                                   
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="list-group-item item_article" style="padding:10px 30px;">
+                        <div class="row">
+                            <div class="div_center ">
+                                <div class="list-group-item-heading div_article_title">
+                                    <strong>
+                                        Adventure Experience 3
+                                    </strong>
+                                </div>
+                                <p class="list-group-item-text div_article_content">
+                                    The biggest adventure you can take is to live the life of your dreams.
+                                    The biggest adventure you can take is to live the life of your dreams.
+                                    The biggest adventure you can take is to live the life of your dreams.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="list-group-item item_article" style="padding:10px 30px;">
+                        <div class="row">
+                            <div class="div_center ">
+                                <div class="list-group-item-heading div_article_title">
+                                    <strong>
+                                        Adventure Experience 4
+                                    </strong>
+                                </div>
+                                <p class="list-group-item-text div_article_content">
+                                    The biggest adventure you can take is to live the life of your dreams.
+                                    The biggest adventure you can take is to live the life of your dreams.
+                                    The biggest adventure you can take is to live the life of your dreams.
+                                    The biggest adventure you can take is to live the life of your dreams.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+				<div class="col-xs-3 div_record">
+                
+                <div class="jumbotron div_userinfo">
+                    <img class="iv_user_head img-circle" src="img/LOGO.png" style="width:70%;height:70%;">
+                    <div style="display: inline-block; margin-left: 25px;font-size: 18px;">Allen</div>
+                </div>
+                
+                <div style="display: flex;">
+                    <div style="flex: 1"><hr></div>
+                    <div style="text-align: center;line-height: 48px;color: #34374C">Record My Adventures</div>
+                    <div style="flex: 1"><hr></div>
+                </div>
+                <input type="text" class="form-control" placeholder="title:Adventure...">
+                <br>
+                <textarea class="form-control" rows="3" name=textarea placeholder="content:Adventure1"></textarea>
+                <br>
+                <div class="div_save">
+                    <button type="button" class="btn btn-primary btn_save_record ">save</button>
+                </div>
+                <hr>
+                
+            </div>
+        </div>
+			
+			
+		</div>
+		
+		
+		<div id="footer" class="text-center" style="background-color:gainsboro;position:fixed;bottom:0;left:0;right:0;">
+    		<div class="container">
+        		<p>contact me | coroporate | resume</p>
+        		<p>12345678. © 2009-2016 network. Powered by Bootstrap.</p>
+    		</div>
+		</div>
+
+		
+		
+	  
+	
+	</body>
+</html>
